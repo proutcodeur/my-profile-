@@ -1,0 +1,110 @@
+body { 
+	background: rgba(34, 51, 59, 1);
+    font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: rgba(34, 51, 59, 1);
+}
+
+h1, h2, h3, h4	{
+	font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	color: rgba(10, 9, 8, 1);
+	text-align: center;
+	text-decoration: none;
+}
+
+.card-white {
+	text-decoration: none;
+	color: rgba(34, 51, 59, 1);
+}
+.link {
+	color: rgba(34, 51, 59, 1)
+}
+.link:hover {
+	color: black;
+	transition: background-color 2s ease-out;
+	text-decoration: none;
+}
+#face {
+ 	border-radius: 50%;
+ 	box-shadow: 5px 5px 5px rgba(234, 224, 213, 1);
+}
+
+div.card-white {
+	margin: 60px 60px auto;
+	box-sizing: 60px 60px;
+	box-shadow: 3px 3px 3px rgba(234, 224, 213, 1);
+	padding: 30px;
+	border-radius: 4px;
+	background-color: rgba(234, 224, 213, 1);
+}
+#lebron {
+	border-radius: 20px;
+}
+div#basket {
+	color:rgba(34, 51, 59, 1);
+
+	background-color:rgba(234, 224, 213, 1);
+	background-image: #lebron;
+	margin:10;	
+}
+
+
+.insta {
+	color: rgba(198, 172, 143, 1);
+	text-decoration: none;
+	height: 100px;
+	width: 100px;
+}
+.fa-brands fa-instagram {
+	color: rgba(198, 172, 143, 1)
+	border-radius: 20px;
+}
+#playlist:hover {
+	width: 52%;
+    height: 52%;
+}
+#playlist {
+border-radius: 20px;
+	height: 150px;
+	width: 500px;}
+div.my_infos {
+	text-decoration: none;
+	color: rgba(34, 51, 59, 1);
+	padding: 100px;
+}
+a:-webkit-any-link {
+	text-decoration: none;
+}
+i {
+ color: black;
+}
+#social_n {
+	list-style:none;
+	padding-left: 0px;
+	font-size: 50px;
+}
+#social_n li {
+	display: inline;
+	padding: 20px;
+	color: rgb(230, 230, 230);
+}
+#social_n i:hover {
+	color: rgba(34, 51, 59, 1);
+}
+@media (max width: 760px) {
+	.container {
+		widows: 600px
+	}
+}	
+@media (max width: 500px) {
+	.container {
+		widows: 400px
+	}
+}
